@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jyun0.tictactoe.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/button_00"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="80sp"
+            android:freezesText="true" />
+
+        <Button
+            android:id="@+id/button_01"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="80sp"
+            android:freezesText="true" />
+
+        <Button
+            android:id="@+id/button_02"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="80sp"
+            android:freezesText="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/button_11"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="80sp"
+            android:freezesText="true" />
+        <Button
+            android:id="@+id/button_12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="80sp"
+            android:freezesText="true" />
+
+        <Button
+            android:id="@+id/button_13"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="80sp"
+            android:freezesText="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/button_21"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="80sp"
+            android:freezesText="true" />
+
+        <Button
+            android:id="@+id/button_22"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="80sp"
+            android:freezesText="true" />
+        <Button
+            android:id="@+id/button_23"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="80sp"
+            android:freezesText="true" />
+    </LinearLayout>
+    <TextView android:id="@+id/dialogue"
+        android:layout_width="match_parent"
+        android:layout_below="@id/button_22"
+        android:layout_height="wrap_content"
+        android:text="Click a button to start"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+</LinearLayout>
